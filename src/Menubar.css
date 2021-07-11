@@ -1,0 +1,59 @@
+button.navbar-toggler {
+  background-color: #e5e8e8 !important;
+}
+
+.menuSection {
+  position: relative;
+  background-color: #000;
+}
+
+.myMenu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 9;
+}
+
+.myMenu nav {
+  background: transparent !important;
+}
+
+.myMenu nav .navbar-brand {
+  font-family: "Italianno", cursive;
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #ffffff !important;
+}
+
+.myMenu nav .navbar-brand:hover {
+  color: #edff4a !important;
+}
+
+nav ul.ml-auto {
+  margin-left: auto !important;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  color: #ffffff !important;
+  padding: 4px 0px !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+
+nav ul li .active {
+  color: rgb(237, 255, 74) !important;
+  border-bottom: 2px solid #ffffff;
+}
+
+@media (max-width: 995px) {
+  nav ul li .active {
+    border-bottom: 0px;
+  }
+}
